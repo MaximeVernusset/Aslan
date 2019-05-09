@@ -4,8 +4,8 @@
 	define("DB_DSN", "mysql");
 	define("DB_HOST", "localhost");
 	define("DB_SCHEMA", "aslan");
-	define("DB_USERNAME", "root");
-	define("DB_PASSWORD", "admin");
+	define("DB_USERNAME", "...");
+	define("DB_PASSWORD", "...");
 	//Hash algorithm used to encrypt password
 	define("HASH_ALGORITHM", "sha256");
 	
