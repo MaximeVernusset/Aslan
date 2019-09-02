@@ -1,11 +1,7 @@
 <?php
 	
-	//Database info
-	define("DB_DSN", "mysql");
-	define("DB_HOST", "localhost");
-	define("DB_SCHEMA", "aslan");
-	define("DB_USERNAME", "...");
-	define("DB_PASSWORD", "...");
+	require_once 'db_info.php';
+	
 	//Hash algorithm used to encrypt password
 	define("HASH_ALGORITHM", "sha256");
 	
